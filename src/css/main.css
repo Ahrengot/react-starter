@@ -1,0 +1,13 @@
+@import "components/header";
+
+body {
+  background-color: #f7f7f9;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
