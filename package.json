@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack-dev-server --watch --open",
-    "build": "rm -rf dist && webpack -p"
+    "dev": "webpack-dev-server --watch -d",
+    "build": "rm -rf dist && webpack -p --progress --output-filename [name]-[hash].js"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
