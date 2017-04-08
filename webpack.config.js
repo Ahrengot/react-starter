@@ -5,7 +5,6 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  devtool: "source-map",
   context: path.resolve(__dirname, './src'),
   entry: {
     'app': './app.js'
